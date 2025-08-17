@@ -1,0 +1,4 @@
+[submodule "Packages/com.crawfissoftware.eventspublisher"]
+	path = Packages/com.crawfissoftware.eventspublisher
+	url = https://github.com/crawfis/eventspublisher.git
+	branch = main
