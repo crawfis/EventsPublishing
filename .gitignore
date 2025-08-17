@@ -5,6 +5,8 @@
 Thumbs.db
 
 # --- Editors / IDEs ---
+.vs/
+.vsconfig
 .vscode/
 .idea/
 *.sln
@@ -20,6 +22,7 @@ Thumbs.db
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
+[Uu]serSettings
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
@@ -46,13 +49,13 @@ sysinfo.txt
 *.mdb
 *.pdb
 
-# --- Keep Packages tracked (manifest, lock, and your submodule) ---
-!Packages/
+# --- Keep Only Packages tracked (manifest, lock, and your submodule) ---
+[Pp]ackages/*
 !Packages/manifest.json
 !Packages/packages-lock.json
-!Packages/com.yourorg.mypackage/
+!Packages/com.CrawfisSoftware.EventsPublisher/
 !.gitmodules
 
 # --- Optional (uncomment if you produce these) ---
-# Assets/StreamingAssets/aa/           # Addressables build output
-# Recording*/                          # e.g., Unity Recorder output dirs
+Assets/StreamingAssets/aa/           # Addressables build output
+Recording*/                          # e.g., Unity Recorder output dirs
