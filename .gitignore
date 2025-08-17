@@ -53,7 +53,8 @@ sysinfo.txt
 [Pp]ackages/*
 !Packages/manifest.json
 !Packages/packages-lock.json
-!Packages/com.CrawfisSoftware.EventsPublisher/
+!Packages/com.crawfissoftware.eventspublisher
+Packages/com.crawfissoftware.eventspublisher/*
 !.gitmodules
 
 # --- Optional (uncomment if you produce these) ---
